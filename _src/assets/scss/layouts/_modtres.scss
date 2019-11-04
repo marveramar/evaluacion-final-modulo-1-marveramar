@@ -1,0 +1,41 @@
+.modtres {
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+    width:100vw;
+    background-color: $color-tres;
+    .modtres__title{
+        padding-top:30px;
+        font-size:24px;
+        font-family: $font-title;
+    }
+    li{
+        list-style-type:none;
+        
+    }
+    .modtres__list {
+        padding-left: 0px;
+        margin-left: 70px;
+        margin-right: 70px;
+        
+        
+        .list__text{
+            margin-top:0px;
+            margin-bottom:0px;
+            
+        }
+        .list_title{
+            margin-bottom:0px;
+            margin-top:45px;
+        }
+    }
+    .modtres__btn {
+        background-color: $color-orange;
+        color: $color-dos;
+        border-radius:22.5px;
+        width:184px;
+        height: 45px;
+        font-size:20px;
+        font-family: $font-btn;
+    }
+}
