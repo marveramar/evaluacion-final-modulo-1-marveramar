@@ -12,6 +12,7 @@
         justify-content: flex-end;
         align-items: center;
         padding-bottom: 53px;
+        margin-bottom:30px;
         color: $color-dos;
         .header__menu { 
             position:relative;
@@ -47,6 +48,7 @@
         .header__title-small{
             margin-top:0px;
             margin-bottom: 45px;
+            font-family: $font-text;
         }
         }
 }

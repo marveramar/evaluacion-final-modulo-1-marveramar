@@ -22,6 +22,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 53px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -42,7 +43,7 @@
 .wrapper .header .header__title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "RobotoSlab-Bold";
+  font-family: "Roboto:700";
   font-size: 42px;
   width: 290px;
   height: 110px;
@@ -64,6 +65,46 @@
 .wrapper .header .header__title-small {
   margin-top: 0px;
   margin-bottom: 45px;
+  font-family: "Roboto", sans-serif;
+}
+
+.moddos {
+  background-color: #ffffff;
+  margin: auto;
+  width: 290px;
+  line-height: 30px;
+}
+
+.moddos .moddos__small {
+  color: #8ccbea;
+  font-size: 14px;
+  height: 30px;
+  margin: auto;
+}
+
+.moddos .moddos__title {
+  font-family: "Roboto:700";
+  font-size: 24px;
+  text-transform: capitalize;
+  height: 60px;
+  margin: auto;
+}
+
+.moddos .moddos__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.moddos .moddos__btn {
+  font-family: "Roboto:400";
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #f26002;
+  border: 2px solid #f26002;
+  border-radius: 22.5px;
+  width: 76px;
+  height: 45px;
 }
 
 /*# sourceMappingURL=main.css.map */

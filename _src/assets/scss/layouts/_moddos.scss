@@ -1,0 +1,36 @@
+.moddos {
+    background-color: $color-dos;
+    margin: auto;
+    width: 290px;
+    line-height: 30px;
+    .moddos__small {
+        color: #8ccbea;
+        font-size: 14px;
+        height: 30px;
+        margin:auto;
+       
+    }
+    .moddos__title{
+        font-family: $font-title;
+        font-size:24px;
+        text-transform: capitalize;
+        height: 60px;
+        margin:auto;
+    }
+    .moddos__text{
+        font-family: $font-text;
+        font-size: 18px;        
+        color: $color-grey;
+
+    }
+    .moddos__btn {
+        font-family: $font-btn;
+        font-size: 20px;
+        background-color: $color-dos;
+        color: $color-orange;
+        border: 2px solid $color-orange;
+        border-radius: 22.5px;
+        width:76px;
+        height: 45px;
+    }
+}
