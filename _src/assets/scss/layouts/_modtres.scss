@@ -9,20 +9,13 @@
         font-size:24px;
         font-family: $font-title;
     }
-    li{
-        list-style-type:none;
-        
-    }
     .modtres__list {
         padding-left: 0px;
         margin-left: 70px;
         margin-right: 70px;
-        
-        
         .list__text{
             margin-top:0px;
-            margin-bottom:0px;
-            
+            margin-bottom:0px;   
         }
         .list_title{
             margin-bottom:0px;
@@ -32,6 +25,7 @@
     .modtres__btn {
         background-color: $color-orange;
         color: $color-dos;
+        border:0px;
         border-radius:22.5px;
         width:184px;
         height: 45px;
