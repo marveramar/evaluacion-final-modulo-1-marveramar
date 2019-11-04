@@ -1,0 +1,52 @@
+.wrapper {
+    margin:0px;
+   
+    .header {
+        background-image: url("../images/cover.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-position-x: -445px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 53px;
+        color: $color-dos;
+        .header__menu { 
+            position:relative;
+            position: fixed;
+            align-self: flex-start;
+            height: 14px;
+            padding-top:15px;
+            padding-bottom:15px;
+            width:16px;
+            padding-right:14px;
+            padding-left:14px;
+            background-color: $color-menu;}
+        .header__title{
+            text-align:center;
+            text-transform: uppercase;
+            font-family: $font-title;
+            font-size:42px;
+            width: 290px;
+            height: 110px;
+            margin-left:15px;
+            margin-bottom: 10px;
+        }
+        .header__scrolldown{
+            background-color: $color-dos;
+            border-radius: 100%;
+            height: 11.7px;
+            padding-bottom:15.3px;
+            padding-top:15.3px;
+            width: 20px;
+            padding-left: 12.5px;
+            padding-right:12.5px;
+        }
+        .header__title-small{
+            margin-top:0px;
+            margin-bottom: 45px;
+        }
+        }
+}

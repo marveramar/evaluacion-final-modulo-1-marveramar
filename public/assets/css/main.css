@@ -1,2 +1,69 @@
+/*_______cuerpo____*/.wrapper {
+  margin: 0px;
+}
+
+.wrapper .header {
+  background-image: url("../images/cover.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position-x: -445px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 53px;
+  color: #ffffff;
+}
+
+.wrapper .header .header__menu {
+  position: relative;
+  position: fixed;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  height: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 16px;
+  padding-right: 14px;
+  padding-left: 14px;
+  background-color: #0271bc;
+}
+
+.wrapper .header .header__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "RobotoSlab-Bold";
+  font-size: 42px;
+  width: 290px;
+  height: 110px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.wrapper .header .header__scrolldown {
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 11.7px;
+  padding-bottom: 15.3px;
+  padding-top: 15.3px;
+  width: 20px;
+  padding-left: 12.5px;
+  padding-right: 12.5px;
+}
+
+.wrapper .header .header__title-small {
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
 
 /*# sourceMappingURL=main.css.map */
