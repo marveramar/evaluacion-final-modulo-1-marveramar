@@ -5,6 +5,7 @@
         list-style-type:none;}
    
     .header {
+        border: 1px solid red;
         background-image: url("../images/cover.jpg");
         height: 100vh;
         width: 100vw;
@@ -48,7 +49,6 @@
                 font-size:42px;
                 width: 290px;
                 height: 110px;
-                margin-left:15px;
                 margin-bottom: 10px;
                 text-shadow: 0 2px 3px #000;
                 @include tablet { 

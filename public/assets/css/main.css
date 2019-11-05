@@ -8,6 +8,7 @@
 }
 
 .wrapper .header {
+  border: 1px solid red;
   background-image: url("../images/cover.jpg");
   height: 100vh;
   width: 100vw;
@@ -55,7 +56,6 @@
   font-size: 42px;
   width: 290px;
   height: 110px;
-  margin-left: 15px;
   margin-bottom: 10px;
   text-shadow: 0 2px 3px #000;
 }
@@ -78,6 +78,7 @@
 }
 
 .moddos {
+  border: 1px solid red;
   background-color: #ffffff;
   margin: auto;
   width: 290px;
@@ -126,6 +127,7 @@
 }
 
 .modtres {
+  border: 1px solid red;
   margin: auto;
   line-height: 30px;
   text-align: center;
@@ -179,6 +181,7 @@
 }
 
 .footer {
+  border: 1px solid red;
   background-color: #304268;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -239,6 +242,10 @@
   position: absolute;
   bottom: 490px;
   left: 45%;
+  -webkit-animation-name: color;
+  animation-name: color;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
 
 @media all and (min-width: 768px) {
@@ -442,6 +449,26 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+}
+
+@-webkit-keyframes color {
+  from {
+    background-color: #ffffff;
+  }
+
+  to {
+    background-color: #3498db;
+  }
+}
+
+@keyframes color {
+  from {
+    background-color: #ffffff;
+  }
+
+  to {
+    background-color: #3498db;
   }
 }
 

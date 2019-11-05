@@ -1,4 +1,9 @@
+@keyframes color{
+    from { background-color: $color-dos}
+    to { background-color: #3498db}
+    }
 .footer {
+    border: 1px solid red;
     background-color: $color-footer;
     color: $color-dos;
     font-family: $font-text;
@@ -69,6 +74,8 @@
         position: absolute;
         bottom: 490px;
         left: 45%;
+        animation-name: color;
+        animation-duration: 4s;
         @include tablet {
             bottom: 265px;
         }
