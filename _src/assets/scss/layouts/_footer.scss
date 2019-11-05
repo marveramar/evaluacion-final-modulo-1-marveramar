@@ -8,6 +8,7 @@
     padding-bottom:45px;
     text-align:center;
     line-height: 30px;
+    position:relative;
         @include tablet {
             height:240px;
         }
@@ -50,19 +51,42 @@
         .small {
             margin-top:0px;  
         }
-         @include tablet{
+        @include tablet{
              order: 1;
              width:159px;
              text-align:left;
-         }
+        }
+    }
+    .arrow {
+        background-color: $color-dos;
+        width: 20.6px;
+        height: 24px;
+        padding: 10px;
+        margin: auto;
+        box-shadow: 0 2px 4px 0 #000;
+        border-radius: 50px;
+        margin-top: -5px;
+        position: absolute;
+        bottom: 490px;
+        left: 45%;
+        @include tablet {
+            bottom: 265px;
+        }
     }
 }
 .footer_text {
 
    @include tablet{
-        display:flex;
+        display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: space-evenly;  text-align:left;
+        justify-content: space-between;
+        text-align: left;
+        padding-top: 45px;
+        padding-left: 39px;
+        padding-right: 39px;
     }
+    @include desktop {
+        justify-content: center;
+    }
+    
 }

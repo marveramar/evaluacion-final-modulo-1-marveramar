@@ -141,7 +141,7 @@
 
 .modtres .modtres__list {
   padding-left: 0px;
-  margin-left: 70px;
+  margin-left: 35.7px;
   margin-right: 70px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
@@ -178,17 +178,6 @@
   color: #0271bc;
 }
 
-.modtres .arrow {
-  background-color: #ffffff;
-  width: 20.6px;
-  height: 24px;
-  padding: 10px;
-  margin: auto;
-  -webkit-box-shadow: 0 2px 4px 0 #000;
-  box-shadow: 0 2px 4px 0 #000;
-  border-radius: 50px;
-}
-
 .footer {
   background-color: #304268;
   color: #ffffff;
@@ -199,6 +188,7 @@
   padding-bottom: 45px;
   text-align: center;
   line-height: 30px;
+  position: relative;
 }
 
 .footer .footer__articles-list {
@@ -234,6 +224,21 @@
 
 .footer .footer__copy .small {
   margin-top: 0px;
+}
+
+.footer .arrow {
+  background-color: #ffffff;
+  width: 20.6px;
+  height: 24px;
+  padding: 10px;
+  margin: auto;
+  -webkit-box-shadow: 0 2px 4px 0 #000;
+  box-shadow: 0 2px 4px 0 #000;
+  border-radius: 50px;
+  margin-top: -5px;
+  position: absolute;
+  bottom: 490px;
+  left: 45%;
 }
 
 @media all and (min-width: 768px) {
@@ -297,6 +302,7 @@
     height: 172px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 26px;
   }
 
   .modtres .modtres__list .li_one {
@@ -313,7 +319,6 @@
 
   .modtres .modtres__list .list__text {
     width: 212.3px;
-    text-align: justify;
   }
 
   .modtres .modtres__list .list_title {
@@ -353,6 +358,10 @@
     text-align: left;
   }
 
+  .footer .arrow {
+    bottom: 265px;
+  }
+
   .footer_text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -361,13 +370,13 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: space-evenly;
-    -ms-flex-align: space-evenly;
-    align-items: space-evenly;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: left;
+    padding-top: 45px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 }
 
@@ -381,6 +390,10 @@
   .wrapper .header .header__text .header__title {
     font-size: 100px;
     width: 730px;
+  }
+
+  .moddos {
+    padding-left: 275px;
   }
 
   .moddos .moddos__small {
@@ -423,6 +436,12 @@
 
   .modtres .modtres__btn {
     width: 255px;
+  }
+
+  .footer_text {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 

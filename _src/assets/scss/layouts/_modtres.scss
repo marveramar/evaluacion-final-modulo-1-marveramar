@@ -5,36 +5,37 @@
     width:100vw;
     background-color: $color-tres;
         @include tablet{
-            height:397px;
+            height: 397px;
         }
         @include desktop {
             height: 427px;
         }
     .modtres__title{
-        padding-top:30px;
-        font-size:24px;
+        padding-top: 30px;
+        font-size: 24px;
         font-family: $font-title;
         @include tablet{
-            font-size:26px;
-            margin-top:0px;
+            font-size: 26px;
+            margin-top: 0px;
         }  
         @include desktop {
-            font-size:32px;
+            font-size: 32px;
             padding-top: 60px;
 
         }
     }
     .modtres__list {
         padding-left: 0px;
-        margin-left: 70px;
+        margin-left: 35.7px;
         margin-right: 70px;
-        font-size:18px;
+        font-size: 18px;
         font-family: $font-text;
         @include tablet{
-            font-size:20px;
+            font-size: 20px;
             height: 172px;
-            display:grid;
+            display: grid;
             grid-template-rows: 1fr 1fr 1fr;
+            grid-column-gap: 26px;
             .li_one{
                 grid-column: 1;
             }
@@ -53,18 +54,16 @@
             margin-bottom: 0px; 
             @include tablet {
                 width: 212.3px;
-                text-align: justify;
             }  
             @include desktop {
                 max-width: 353.8px;
                 margin: auto;
-                text-align:center;
-                
+                text-align: center;   
             }
         }
         .list_title{
-            margin-bottom:0px;
-            margin-top:45px;
+            margin-bottom: 0px;
+            margin-top: 45px;
             font-family: $font-title;
             @include tablet {
                 font-size: 24px;
@@ -72,7 +71,7 @@
             @include desktop {
                 margin: auto;
                 max-width: 350px;
-                text-align:center;
+                text-align: center;
                 padding-top: 45px;
             
             }
@@ -81,13 +80,13 @@
     .modtres__btn {
         background-color: $color-orange;
         color: $color-dos;
-        border:0px;
-        border-radius:22.5px;
-        width:184px;
+        border: 0px;
+        border-radius: 22.5px;
+        width: 184px;
         height: 45px;
-        font-size:20px;
+        font-size: 20px;
         font-family: $font-btn;
-        margin-bottom:60px;
+        margin-bottom: 60px;
         transition-property: color;
         transition-duration: 0.5s;
         &:hover {
@@ -97,18 +96,7 @@
             width: 210px;
         }
         @include desktop {
-            width:255px;
+            width: 255px;
         }
-    }
-    .arrow {
-        background-color: $color-dos;
-        width:20.6px;
-        height: 24px;
-        padding:10px;
-        margin:auto;
-        box-shadow: 0 2px 4px 0 #000;
-        border-radius: 50px;
-      
-    }
-   
+    }   
 }

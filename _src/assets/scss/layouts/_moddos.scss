@@ -4,11 +4,14 @@
     width: 290px;
     line-height: 30px;
     padding-left:15px;
-         @include tablet{
+        @include tablet{
             padding-left:39px;
             padding-top:30px;
             margin:0px;
             height: 330px;
+        }
+        @include desktop {
+            padding-left: 275px;
         }
     .moddos__small {
         color: #8ccbea;
