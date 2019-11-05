@@ -3,11 +3,11 @@
     margin: auto;
     width: 290px;
     line-height: 30px;
-    padding-left:15px;
+    padding-left: 15px;
         @include tablet{
-            padding-left:39px;
-            padding-top:30px;
-            margin:0px;
+            padding-left: 39px;
+            padding-top: 30px;
+            margin: 0px;
             height: 330px;
         }
         @include desktop {
@@ -17,25 +17,25 @@
         color: #8ccbea;
         font-size: 14px;
         height: 30px;
-        margin:auto;
+        margin: auto;
         @include desktop {
             font-size: 16px;
         }  
     }
     .moddos__title{
         font-family: $font-title;
-        font-size:24px;
+        font-size: 24px;
         text-transform: capitalize;
         height: 60px;
-        margin:auto;
+        margin: auto;
             @include tablet{
-                font-size:26px;
-                width:690px;
+                font-size: 26px;
+                width: 690px;
                 height: 45px;
-                margin-top:10px;
+                margin-top: 10px;
             }
             @include desktop{
-                font-size:32px;
+                font-size: 32px;
             }
     }
     .moddos__text{
@@ -43,9 +43,8 @@
         font-size: 18px;        
         color: $color-grey;
         @include tablet{
-            font-size:20px;
-            width:690px;
-            margin-top:opx;
+            font-size: 20px;
+            width: 690px;
         }
 
     }
@@ -56,7 +55,7 @@
         color: $color-orange;
         border: 2px solid $color-orange;
         border-radius: 22.5px;
-        width:76px;
+        width: 76px;
         height: 45px;
         transition-property: color;
         transition-duration: 0.5s;
@@ -64,11 +63,11 @@
             color: $color-menu;
         }
         @include tablet{
-            width:91px;
-            margin-top:30px;
+            width: 91px;
+            margin-top: 30px;
         }
         @include desktop {
-            width:160px;
+            width: 160px;
         }
     }
 }

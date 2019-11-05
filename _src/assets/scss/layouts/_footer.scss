@@ -1,8 +1,8 @@
 @keyframes color{
-    from { background-color: $color-dos}
-    to { background-color: #3498db}
-    }
-.footer {
+    from { top: 100px}
+    to { top: 250px}
+}   
+.footer{
     background-color: $color-footer;
     color: $color-dos;
     font-family: $font-text;
@@ -10,55 +10,55 @@
     width: 100vw;
     height: 465px;
     padding-bottom:45px;
-    text-align:center;
+    text-align: center;
     line-height: 30px;
-    position:relative;
+    position: relative;
         @include tablet {
             height:240px;
         }
     .footer__articles-list {
-        padding-left:0px;
-        width:73px;
-        margin:auto;
-        padding-top:44px;
+        padding-left: 0px;
+        width: 73px;
+        margin: auto;
+        padding-top: 44px;
         text-transform: uppercase;
-        margin-top:0px;
+        margin-top: 0px;
         margin-bottom: 30px; 
         @include tablet{
             order: 2;
-            margin:0px;
-            width:161px;
-            padding-top:0px;
+            margin: 0px;
+            width: 161px;
+            padding-top: 0px;
         }
     }
     .footer__social-list {
         padding-left: 0px;
         margin: auto;
         margin-bottom: 30px;
-        width:320px;
+        width: 320px;
         text-transform: uppercase;
         @include tablet{
             order: 3;
-            margin:0px;
-            width:159px;
+            margin: 0px;
+            width: 159px;
         }
     }
     .footer__copy {
-        text-align:center;
+        text-align: center;
         font-size: 14px;
         .heart {
-            color:$color-orange;
+            color: $color-orange;
         }
         .copy {
-            margin-bottom:0px;
+            margin-bottom: 0px;
         }
         .small {
-            margin-top:0px;  
+            margin-top: 0px;  
         }
         @include tablet{
              order: 1;
-             width:159px;
-             text-align:left;
+             width: 159px;
+             text-align: left;
         }
     }
     .arrow {
@@ -74,7 +74,7 @@
         bottom: 490px;
         left: 45%;
         animation-name: color;
-        animation-duration: 10s;
+        animation-duration: 1s;
         @include tablet {
             bottom: 265px;
         }

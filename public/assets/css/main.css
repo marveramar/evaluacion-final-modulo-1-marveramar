@@ -1,5 +1,5 @@
 /*_______cuerpo____*/.wrapper {
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0px;
   padding: 0px;
 }
@@ -140,9 +140,9 @@
 }
 
 .modtres .modtres__list {
+  max-width: 692.3px;
   padding-left: 0px;
   margin-left: 35.7px;
-  margin-right: 70px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
@@ -241,8 +241,8 @@
   left: 45%;
   -webkit-animation-name: color;
   animation-name: color;
-  -webkit-animation-duration: 10s;
-  animation-duration: 10s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 @media all and (min-width: 768px) {
@@ -284,7 +284,6 @@
   .moddos .moddos__text {
     font-size: 20px;
     width: 690px;
-    margin-top: opx;
   }
 
   .moddos .moddos__btn {
@@ -451,21 +450,21 @@
 
 @-webkit-keyframes color {
   from {
-    background-color: #ffffff;
+    top: 100px;
   }
 
   to {
-    background-color: #3498db;
+    top: 250px;
   }
 }
 
 @keyframes color {
   from {
-    background-color: #ffffff;
+    top: 100px;
   }
 
   to {
-    background-color: #3498db;
+    top: 250px;
   }
 }
 

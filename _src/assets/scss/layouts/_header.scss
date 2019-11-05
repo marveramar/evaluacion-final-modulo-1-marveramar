@@ -1,10 +1,10 @@
 
 .wrapper {
-    overflow: hidden;
-    margin:0px;
-    padding:0px;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
     li{  
-        list-style-type:none;}
+        list-style-type: none;}
    
     .header {
         background-image: url("../images/cover.jpg");
@@ -13,16 +13,16 @@
         background-repeat: no-repeat;
         background-position-x: -445px;
         padding-bottom: 53px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
         color: $color-dos;
             @include tablet{
-                padding-bottom:45px;
+                padding-bottom: 45px;
                 background-position-x: -240px;
-                margin-bottom:0px;
+                margin-bottom: 0px;
             }
             @include desktop {
-               height:100vh;
-               width:100vw;
+               height: 100vh;
+               width: 100vw;
                background-position-x: 0px;
                 
             }
@@ -30,11 +30,11 @@
             position: fixed;
             align-self: flex-start;
             height: 14px;
-            padding-top:15px;
-            padding-bottom:15px;
-            width:16px;
-            padding-right:14px;
-            padding-left:14px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            width: 16px;
+            padding-right: 14px;
+            padding-left: 14px;
             background-color: $color-menu;}
         .header__text{
             height: 100vh;
@@ -47,42 +47,42 @@
                 text-align: center;
                 text-transform: uppercase;
                 font-family: $font-title;
-                font-size:42px;
+                font-size: 42px;
                 width: 290px;
                 height: 110px;
                 margin-bottom: 10px;
                 text-shadow: 0 2px 3px #000;
                 @include tablet { 
                     font-size: 80px;
-                    width:690px;
-                    height:212px;
+                    width: 690px;
+                    height: 212px;
                     }
                 @include desktop {
-                    font-size:100px;
-                    width:730px;
+                    font-size: 100px;
+                    width: 730px;
 
                 }
             }
             .header__titlesmall{
-                margin-top:0px;
+                margin-top: 0px;
                 margin-bottom: 45px;
                 font-family: $font-text;
                 @include tablet{
                     font-size: 24px;
-                    margin-top:0px;
+                    margin-top: 0px;
                     }
             }
             .header__scrolldown{
                 background-color: $color-dos;
                 border-radius: 100%;
                 height: 11.7px;
-                padding-bottom:15.3px;
-                padding-top:15.3px;
+                padding-bottom: 15.3px;
+                padding-top: 15.3px;
                 width: 20px;
                 padding-left: 12.5px;
-                padding-right:12.5px;
+                padding-right: 12.5px;
                 @include tablet{
-                     margin-bottom:45px;
+                     margin-bottom: 45px;
 
                 }
             }
