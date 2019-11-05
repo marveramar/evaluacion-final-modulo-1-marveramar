@@ -178,6 +178,17 @@
   color: #0271bc;
 }
 
+.modtres .arrow {
+  background-color: #ffffff;
+  width: 20.6px;
+  height: 24px;
+  padding: 10px;
+  margin: auto;
+  -webkit-box-shadow: 0 2px 4px 0 #000;
+  box-shadow: 0 2px 4px 0 #000;
+  border-radius: 50px;
+}
+
 .footer {
   background-color: #304268;
   color: #ffffff;
@@ -188,17 +199,6 @@
   padding-bottom: 45px;
   text-align: center;
   line-height: 30px;
-}
-
-.footer .arrow {
-  background-color: #ffffff;
-  width: 20.6px;
-  height: 24px;
-  padding: 10px;
-  -webkit-box-shadow: 0 2px 4px 0 #000;
-  box-shadow: 0 2px 4px 0 #000;
-  border-radius: 50px;
-  margin: auto;
 }
 
 .footer .footer__articles-list {
@@ -395,14 +395,30 @@
     width: 160px;
   }
 
+  .modtres {
+    height: 427px;
+  }
+
   .modtres .modtres__title {
     font-size: 32px;
+    padding-top: 60px;
+  }
+
+  .modtres .modtres__list {
+    text-align: center;
   }
 
   .modtres .modtres__list .list__text {
-    width: 353.8px;
-    margin-left: 26.2px;
-    padding: 10px;
+    max-width: 353.8px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .modtres .modtres__list .list_title {
+    margin: auto;
+    max-width: 350px;
+    text-align: center;
+    padding-top: 45px;
   }
 
   .modtres .modtres__btn {

@@ -7,6 +7,9 @@
         @include tablet{
             height:397px;
         }
+        @include desktop {
+            height: 427px;
+        }
     .modtres__title{
         padding-top:30px;
         font-size:24px;
@@ -17,6 +20,7 @@
         }  
         @include desktop {
             font-size:32px;
+            padding-top: 60px;
 
         }
     }
@@ -41,6 +45,9 @@
                 grid-column: 3;
             }
         }
+        @include desktop {
+            text-align: center;
+        }
         .list__text{
             margin-top: 0px;
             margin-bottom: 0px; 
@@ -49,9 +56,10 @@
                 text-align: justify;
             }  
             @include desktop {
-                width: 353.8px;
-                margin-left: 26.2px;
-                padding:10px;
+                max-width: 353.8px;
+                margin: auto;
+                text-align:center;
+                
             }
         }
         .list_title{
@@ -60,6 +68,13 @@
             font-family: $font-title;
             @include tablet {
                 font-size: 24px;
+            }
+            @include desktop {
+                margin: auto;
+                max-width: 350px;
+                text-align:center;
+                padding-top: 45px;
+            
             }
         }
     }
@@ -84,6 +99,16 @@
         @include desktop {
             width:255px;
         }
+    }
+    .arrow {
+        background-color: $color-dos;
+        width:20.6px;
+        height: 24px;
+        padding:10px;
+        margin:auto;
+        box-shadow: 0 2px 4px 0 #000;
+        border-radius: 50px;
+      
     }
    
 }
