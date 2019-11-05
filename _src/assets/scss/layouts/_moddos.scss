@@ -3,6 +3,14 @@
     margin: auto;
     width: 290px;
     line-height: 30px;
+    padding-left:15px;
+         @media all and (min-width:768px){
+            padding-left:39px;
+            padding-top:30px;
+            margin:0px;
+            height: 330px;
+    }
+    
     .moddos__small {
         color: #8ccbea;
         font-size: 14px;
@@ -16,11 +24,22 @@
         text-transform: capitalize;
         height: 60px;
         margin:auto;
+            @media all and (min-width:768px){
+                font-size:26px;
+                width:690px;
+                height: 45px;
+                margin-top:10px;
+            }
     }
     .moddos__text{
         font-family: $font-text;
         font-size: 18px;        
         color: $color-grey;
+        @media all and (min-width:768px){
+            font-size:20px;
+            width:690px;
+            margin-top:opx;
+        }
 
     }
     .moddos__btn {
@@ -32,5 +51,14 @@
         border-radius: 22.5px;
         width:76px;
         height: 45px;
+        transition-property: color;
+        transition-duration: 0.5s;
+        &.moddos__btn:hover {
+            color: $color-menu;
+        }
+        @media all and (min-width:768px){
+            width:91px;
+            margin-top:30px;
+        }
     }
 }

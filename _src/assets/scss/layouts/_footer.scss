@@ -5,8 +5,18 @@
     font-size: 16px;
     width: 100vw;
     height: 465px;
+    padding-bottom:45px;
     text-align:center;
     line-height: 30px;
+    .arrow {
+        background-color: $color-dos;
+        width:20.6px;
+        height: 24px;
+        padding:10px;
+        box-shadow: 0 2px 4px 0 #000;
+        border-radius: 50px;
+        margin:auto;
+    }
     .footer__articles-list {
         padding-left:0px;
         width:73px;
@@ -33,7 +43,7 @@
             margin-bottom:0px;
         }
         .small {
-            margin-top:0px;
+            margin-top:0px;  
         }
     }
 }

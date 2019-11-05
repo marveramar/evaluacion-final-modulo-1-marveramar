@@ -57,6 +57,7 @@
   height: 110px;
   margin-left: 15px;
   margin-bottom: 10px;
+  text-shadow: 0 2px 3px #000;
 }
 
 .wrapper .header .header__text .header__title-small {
@@ -81,6 +82,7 @@
   margin: auto;
   width: 290px;
   line-height: 30px;
+  padding-left: 15px;
 }
 
 .moddos .moddos__small {
@@ -113,6 +115,14 @@
   border-radius: 22.5px;
   width: 76px;
   height: 45px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.moddos .moddos__btn.moddos__btn:hover {
+  color: #0271bc;
 }
 
 .modtres {
@@ -154,6 +164,15 @@
   height: 45px;
   font-size: 20px;
   font-family: "Roboto:400";
+  margin-bottom: 60px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.modtres .modtres__btn:hover {
+  color: #0271bc;
 }
 
 .footer {
@@ -163,8 +182,20 @@
   font-size: 16px;
   width: 100vw;
   height: 465px;
+  padding-bottom: 45px;
   text-align: center;
   line-height: 30px;
+}
+
+.footer .arrow {
+  background-color: #ffffff;
+  width: 20.6px;
+  height: 24px;
+  padding: 10px;
+  -webkit-box-shadow: 0 2px 4px 0 #000;
+  box-shadow: 0 2px 4px 0 #000;
+  border-radius: 50px;
+  margin: auto;
 }
 
 .footer .footer__articles-list {
@@ -200,6 +231,55 @@
 
 .footer .footer__copy .small {
   margin-top: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .wrapper .header {
+    padding-bottom: 0px;
+    background-position-x: -240px;
+    margin-bottom: 0px;
+    height: 768px;
+  }
+
+  .wrapper .header .header__text .header__title {
+    font-size: 80px;
+    width: 690px;
+    height: 212px;
+  }
+
+  .wrapper .header .header__text .header__title-small {
+    font-size: 24px;
+    margin-top: 0px;
+  }
+
+  .wrapper .header .header__text .header__scrolldown {
+    margin-bottom: 45px;
+  }
+
+  .moddos {
+    padding-left: 39px;
+    padding-top: 30px;
+    margin: 0px;
+    height: 330px;
+  }
+
+  .moddos .moddos__title {
+    font-size: 26px;
+    width: 690px;
+    height: 45px;
+    margin-top: 10px;
+  }
+
+  .moddos .moddos__text {
+    font-size: 20px;
+    width: 690px;
+    margin-top: opx;
+  }
+
+  .moddos .moddos__btn {
+    width: 91px;
+    margin-top: 30px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,5 +31,12 @@
         height: 45px;
         font-size:20px;
         font-family: $font-btn;
+        margin-bottom:60px;
+        transition-property: color;
+        transition-duration: 0.5s;
+        &:hover {
+            color: $color-menu;
+        }
     }
+   
 }
