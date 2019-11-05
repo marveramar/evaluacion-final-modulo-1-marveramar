@@ -15,6 +15,10 @@
             font-size:26px;
             margin-top:0px;
         }  
+        @include desktop {
+            font-size:32px;
+
+        }
     }
     .modtres__list {
         padding-left: 0px;
@@ -38,8 +42,17 @@
             }
         }
         .list__text{
-            margin-top:0px;
-            margin-bottom:0px;   
+            margin-top: 0px;
+            margin-bottom: 0px; 
+            @include tablet {
+                width: 212.3px;
+                text-align: justify;
+            }  
+            @include desktop {
+                width: 353.8px;
+                margin-left: 26.2px;
+                padding:10px;
+            }
         }
         .list_title{
             margin-bottom:0px;
@@ -67,6 +80,9 @@
         }
         @include tablet {
             width: 210px;
+        }
+        @include desktop {
+            width:255px;
         }
     }
    

@@ -4,19 +4,20 @@
     width: 290px;
     line-height: 30px;
     padding-left:15px;
-         @media all and (min-width:768px){
+         @include tablet{
             padding-left:39px;
             padding-top:30px;
             margin:0px;
             height: 330px;
-    }
-    
+        }
     .moddos__small {
         color: #8ccbea;
         font-size: 14px;
         height: 30px;
         margin:auto;
-       
+        @include desktop {
+            font-size: 16px;
+        }  
     }
     .moddos__title{
         font-family: $font-title;
@@ -24,18 +25,21 @@
         text-transform: capitalize;
         height: 60px;
         margin:auto;
-            @media all and (min-width:768px){
+            @include tablet{
                 font-size:26px;
                 width:690px;
                 height: 45px;
                 margin-top:10px;
+            }
+            @include desktop{
+                font-size:32px;
             }
     }
     .moddos__text{
         font-family: $font-text;
         font-size: 18px;        
         color: $color-grey;
-        @media all and (min-width:768px){
+        @include tablet{
             font-size:20px;
             width:690px;
             margin-top:opx;
@@ -56,9 +60,12 @@
         &.moddos__btn:hover {
             color: $color-menu;
         }
-        @media all and (min-width:768px){
+        @include tablet{
             width:91px;
             margin-top:30px;
+        }
+        @include desktop {
+            width:160px;
         }
     }
 }

@@ -238,10 +238,9 @@
 
 @media all and (min-width: 768px) {
   .wrapper .header {
-    padding-bottom: 0px;
+    padding-bottom: 45px;
     background-position-x: -240px;
     margin-bottom: 0px;
-    height: 768px;
   }
 
   .wrapper .header .header__text .header__title {
@@ -312,6 +311,11 @@
     grid-column: 3;
   }
 
+  .modtres .modtres__list .list__text {
+    width: 212.3px;
+    text-align: justify;
+  }
+
   .modtres .modtres__list .list_title {
     font-size: 24px;
   }
@@ -364,6 +368,45 @@
     -ms-flex-align: space-evenly;
     align-items: space-evenly;
     text-align: left;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .wrapper .header {
+    height: 100vh;
+    width: 100vw;
+    background-position-x: 0px;
+  }
+
+  .wrapper .header .header__text .header__title {
+    font-size: 100px;
+    width: 730px;
+  }
+
+  .moddos .moddos__small {
+    font-size: 16px;
+  }
+
+  .moddos .moddos__title {
+    font-size: 32px;
+  }
+
+  .moddos .moddos__btn {
+    width: 160px;
+  }
+
+  .modtres .modtres__title {
+    font-size: 32px;
+  }
+
+  .modtres .modtres__list .list__text {
+    width: 353.8px;
+    margin-left: 26.2px;
+    padding: 10px;
+  }
+
+  .modtres .modtres__btn {
+    width: 255px;
   }
 }
 
