@@ -60,7 +60,7 @@
   text-shadow: 0 2px 3px #000;
 }
 
-.wrapper .header .header__text .header__title-small {
+.wrapper .header .header__text .header__titlesmall {
   margin-top: 0px;
   margin-bottom: 45px;
   font-family: "Roboto", sans-serif;
@@ -143,6 +143,8 @@
   padding-left: 0px;
   margin-left: 70px;
   margin-right: 70px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 .modtres .modtres__list .list__text {
@@ -153,6 +155,7 @@
 .modtres .modtres__list .list_title {
   margin-bottom: 0px;
   margin-top: 45px;
+  font-family: "Roboto:700";
 }
 
 .modtres .modtres__btn {
@@ -247,7 +250,7 @@
     height: 212px;
   }
 
-  .wrapper .header .header__text .header__title-small {
+  .wrapper .header .header__text .header__titlesmall {
     font-size: 24px;
     margin-top: 0px;
   }
@@ -279,6 +282,88 @@
   .moddos .moddos__btn {
     width: 91px;
     margin-top: 30px;
+  }
+
+  .modtres {
+    height: 397px;
+  }
+
+  .modtres .modtres__title {
+    font-size: 26px;
+    margin-top: 0px;
+  }
+
+  .modtres .modtres__list {
+    font-size: 20px;
+    height: 172px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .modtres .modtres__list .li_one {
+    grid-column: 1;
+  }
+
+  .modtres .modtres__list .li_two {
+    grid-column: 2;
+  }
+
+  .modtres .modtres__list .li_three {
+    grid-column: 3;
+  }
+
+  .modtres .modtres__list .list_title {
+    font-size: 24px;
+  }
+
+  .modtres .modtres__btn {
+    width: 210px;
+  }
+
+  .footer {
+    height: 240px;
+  }
+
+  .footer .footer__articles-list {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    margin: 0px;
+    width: 161px;
+    padding-top: 0px;
+  }
+
+  .footer .footer__social-list {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    margin: 0px;
+    width: 159px;
+  }
+
+  .footer .footer__copy {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 159px;
+    text-align: left;
+  }
+
+  .footer_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: space-evenly;
+    -ms-flex-align: space-evenly;
+    align-items: space-evenly;
+    text-align: left;
   }
 }
 

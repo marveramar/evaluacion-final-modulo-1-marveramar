@@ -4,15 +4,39 @@
     text-align: center;
     width:100vw;
     background-color: $color-tres;
+        @include tablet{
+            height:397px;
+        }
     .modtres__title{
         padding-top:30px;
         font-size:24px;
         font-family: $font-title;
+        @include tablet{
+            font-size:26px;
+            margin-top:0px;
+        }  
     }
     .modtres__list {
         padding-left: 0px;
         margin-left: 70px;
         margin-right: 70px;
+        font-size:18px;
+        font-family: $font-text;
+        @include tablet{
+            font-size:20px;
+            height: 172px;
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            .li_one{
+                grid-column: 1;
+            }
+            .li_two {
+                grid-column: 2;
+            }
+            .li_three {
+                grid-column: 3;
+            }
+        }
         .list__text{
             margin-top:0px;
             margin-bottom:0px;   
@@ -20,6 +44,10 @@
         .list_title{
             margin-bottom:0px;
             margin-top:45px;
+            font-family: $font-title;
+            @include tablet {
+                font-size: 24px;
+            }
         }
     }
     .modtres__btn {
@@ -36,6 +64,9 @@
         transition-duration: 0.5s;
         &:hover {
             color: $color-menu;
+        }
+        @include tablet {
+            width: 210px;
         }
     }
    

@@ -8,6 +8,9 @@
     padding-bottom:45px;
     text-align:center;
     line-height: 30px;
+        @include tablet {
+            height:240px;
+        }
     .arrow {
         background-color: $color-dos;
         width:20.6px;
@@ -24,7 +27,13 @@
         padding-top:44px;
         text-transform: uppercase;
         margin-top:0px;
-        margin-bottom: 30px;
+        margin-bottom: 30px; 
+        @include tablet{
+            order: 2;
+            margin:0px;
+            width:161px;
+            padding-top:0px;
+        }
     }
     .footer__social-list {
         padding-left: 0px;
@@ -32,6 +41,11 @@
         margin-bottom: 30px;
         width:320px;
         text-transform: uppercase;
+        @include tablet{
+            order: 3;
+            margin:0px;
+            width:159px;
+        }
     }
     .footer__copy {
         text-align:center;
@@ -45,5 +59,20 @@
         .small {
             margin-top:0px;  
         }
+         @include tablet{
+             order: 1;
+             width:159px;
+             text-align:left;
+         }
+    }
+}
+.footer_text {
+
+   @include tablet{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: space-evenly;        
+        text-align:left;
     }
 }
