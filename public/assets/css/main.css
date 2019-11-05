@@ -1,4 +1,5 @@
 /*_______cuerpo____*/.wrapper {
+  overflow: hidden;
   margin: 0px;
   padding: 0px;
 }
@@ -8,7 +9,6 @@
 }
 
 .wrapper .header {
-  border: 1px solid red;
   background-image: url("../images/cover.jpg");
   height: 100vh;
   width: 100vw;
@@ -78,7 +78,6 @@
 }
 
 .moddos {
-  border: 1px solid red;
   background-color: #ffffff;
   margin: auto;
   width: 290px;
@@ -127,7 +126,6 @@
 }
 
 .modtres {
-  border: 1px solid red;
   margin: auto;
   line-height: 30px;
   text-align: center;
@@ -181,7 +179,6 @@
 }
 
 .footer {
-  border: 1px solid red;
   background-color: #304268;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -244,8 +241,8 @@
   left: 45%;
   -webkit-animation-name: color;
   animation-name: color;
-  -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
 }
 
 @media all and (min-width: 768px) {
