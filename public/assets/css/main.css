@@ -179,8 +179,8 @@
 }
 
 .footer {
-  background-color: #304268;
-  color: #ffffff;
+  background-color: #0271bc;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   width: 100vw;
@@ -189,6 +189,8 @@
   text-align: center;
   line-height: 30px;
   position: relative;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .footer .footer__articles-list {
@@ -237,7 +239,7 @@
   border-radius: 50px;
   margin-top: -5px;
   position: absolute;
-  bottom: 490px;
+  top: -20px;
   left: 47%;
   -webkit-animation-name: color;
   animation-name: color;
@@ -337,6 +339,8 @@
 
   .footer {
     height: 240px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .footer .footer__articles-list {
@@ -373,9 +377,9 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -383,6 +387,10 @@
     padding-top: 45px;
     padding-left: 39px;
     padding-right: 39px;
+  }
+
+  .footer_text .components {
+    color: #f26002;
   }
 }
 
