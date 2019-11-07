@@ -140,7 +140,6 @@
 }
 
 .modtres .modtres__list {
-  max-width: 692.3px;
   padding-left: 0px;
   margin-left: 35.7px;
   font-size: 18px;
@@ -148,11 +147,13 @@
 }
 
 .modtres .modtres__list .list__text {
+  margin: auto;
   margin-top: 0px;
-  margin-bottom: 0px;
+  width: 180px;
 }
 
 .modtres .modtres__list .list_title {
+  margin: auto;
   margin-bottom: 0px;
   margin-top: 45px;
   font-family: "Roboto:700";
@@ -238,7 +239,7 @@
   margin-top: -5px;
   position: absolute;
   bottom: 490px;
-  left: 45%;
+  left: 47%;
   -webkit-animation-name: color;
   animation-name: color;
   -webkit-animation-duration: 1s;
@@ -321,11 +322,14 @@
   }
 
   .modtres .modtres__list .list__text {
+    margin: auto;
     width: 212.3px;
   }
 
   .modtres .modtres__list .list_title {
+    margin: auto;
     font-size: 24px;
+    width: 212.3px;
   }
 
   .modtres .modtres__btn {

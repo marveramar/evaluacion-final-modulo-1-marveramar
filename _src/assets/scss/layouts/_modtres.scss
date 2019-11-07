@@ -25,7 +25,6 @@
         }
     }
     .modtres__list {
-        max-width: 692.3px;
         padding-left: 0px;
         margin-left: 35.7px;
         font-size: 18px;
@@ -50,9 +49,11 @@
             text-align: center;
         }
         .list__text{
+            margin:auto;
             margin-top: 0px;
-            margin-bottom: 0px; 
+            width: 180px;
             @include tablet {
+                margin:auto;
                 width: 212.3px;
             }  
             @include desktop {
@@ -62,11 +63,15 @@
             }
         }
         .list_title{
+            margin: auto;
             margin-bottom: 0px;
             margin-top: 45px;
             font-family: $font-title;
+            
             @include tablet {
+                margin: auto;
                 font-size: 24px;
+                width: 212.3px;
             }
             @include desktop {
                 margin: auto;
