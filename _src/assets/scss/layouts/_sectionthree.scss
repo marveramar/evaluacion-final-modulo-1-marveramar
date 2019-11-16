@@ -1,4 +1,4 @@
-.modtres {
+.section-three {
     margin: auto;
     line-height: 30px;
     text-align: center;
@@ -10,10 +10,11 @@
         @include desktop {
             height: 427px;
         }
-    .modtres__title{
+        .section-three__title{
         padding-top: 30px;
         font-size: 24px;
-        font-family: $font-title;
+        font-family: $font-text;
+        font-weight: 700;
         @include tablet{
             font-size: 26px;
             margin-top: 0px;
@@ -24,7 +25,7 @@
 
         }
     }
-    .modtres__list {
+    .section-three__list {
         padding-left: 0px;
         font-size: 18px;
         font-family: $font-text;
@@ -33,7 +34,6 @@
             height: 172px;
             display: grid;
             grid-template-rows: 1fr 1fr 1fr;
-            grid-column-gap: 26px;
             .li_one{
                 grid-column: 1;
             }
@@ -65,12 +65,12 @@
             margin: auto;
             margin-bottom: 0px;
             margin-top: 45px;
-            font-family: $font-title;
+            font-family: $font-text;
+            font-weight: 700;
             
             @include tablet {
                 margin: auto;
                 font-size: 24px;
-                width: 212.3px;
             }
             @include desktop {
                 margin: auto;
@@ -81,7 +81,7 @@
             }
         }
     }
-    .modtres__btn {
+    .section-three__btn {
         background-color: $color-orange;
         color: $color-dos;
         border: 0px;
@@ -89,7 +89,8 @@
         width: 184px;
         height: 45px;
         font-size: 20px;
-        font-family: $font-btn;
+        font-family: $font-text;
+        font-weight: 400;
         margin-bottom: 60px;
         transition-property: color;
         transition-duration: 0.5s;

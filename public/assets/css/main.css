@@ -1,5 +1,5 @@
 /*_______cuerpo____*/.wrapper {
-  overflow-x: hidden;
+ /*overflow-x: hidden;*/
   margin: 0px;
   padding: 0px;
 }
@@ -47,12 +47,14 @@
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper .header .header__text .header__title {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Roboto:700";
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 42px;
   width: 290px;
   height: 110px;
@@ -77,7 +79,7 @@
   padding-right: 12.5px;
 }
 
-.moddos {
+.section-two {
   background-color: #ffffff;
   margin: auto;
   width: 290px;
@@ -85,29 +87,31 @@
   padding-left: 15px;
 }
 
-.moddos .moddos__small {
+.section-two .section-two__small {
   color: #8ccbea;
   font-size: 14px;
   height: 30px;
   margin: auto;
 }
 
-.moddos .moddos__title {
-  font-family: "Roboto:700";
+.section-two .section-two__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 24px;
   text-transform: capitalize;
   height: 60px;
   margin: auto;
 }
 
-.moddos .moddos__text {
+.section-two .section-two__text {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #4a4a4a;
 }
 
-.moddos .moddos__btn {
-  font-family: "Roboto:400";
+.section-two .section-two__btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   background-color: #ffffff;
   color: #f26002;
@@ -121,11 +125,11 @@
   transition-duration: 0.5s;
 }
 
-.moddos .moddos__btn.moddos__btn:hover {
+.section-two .section-two__btn.section-two__btn:hover {
   color: #0271bc;
 }
 
-.modtres {
+.section-three {
   margin: auto;
   line-height: 30px;
   text-align: center;
@@ -133,32 +137,34 @@
   background-color: #eff9ff;
 }
 
-.modtres .modtres__title {
+.section-three .section-three__title {
   padding-top: 30px;
   font-size: 24px;
-  font-family: "Roboto:700";
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
-.modtres .modtres__list {
+.section-three .section-three__list {
   padding-left: 0px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
 
-.modtres .modtres__list .list__text {
+.section-three .section-three__list .list__text {
   margin: auto;
   margin-top: 0px;
   width: 180px;
 }
 
-.modtres .modtres__list .list_title {
+.section-three .section-three__list .list_title {
   margin: auto;
   margin-bottom: 0px;
   margin-top: 45px;
-  font-family: "Roboto:700";
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
-.modtres .modtres__btn {
+.section-three .section-three__btn {
   background-color: #f26002;
   color: #ffffff;
   border: 0px;
@@ -166,7 +172,8 @@
   width: 184px;
   height: 45px;
   font-size: 20px;
-  font-family: "Roboto:400";
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   margin-bottom: 60px;
   -webkit-transition-property: color;
   transition-property: color;
@@ -174,7 +181,7 @@
   transition-duration: 0.5s;
 }
 
-.modtres .modtres__btn:hover {
+.section-three .section-three__btn:hover {
   color: #0271bc;
 }
 
@@ -224,7 +231,7 @@
   margin-bottom: 0px;
 }
 
-.footer .footer__copy .small {
+.footer .footer__copy .claim {
   margin-top: 0px;
 }
 
@@ -250,8 +257,9 @@
 @media all and (min-width: 768px) {
   .wrapper .header {
     padding-bottom: 45px;
-    background-position-x: -240px;
+    background-position-x: 0px;
     margin-bottom: 0px;
+    background-size: 100% 100%;
   }
 
   .wrapper .header .header__text .header__title {
@@ -269,71 +277,69 @@
     margin-bottom: 45px;
   }
 
-  .moddos {
+  .section-two {
     padding-left: 39px;
     padding-top: 30px;
     margin: 0px;
     height: 330px;
   }
 
-  .moddos .moddos__title {
+  .section-two .section-two__title {
     font-size: 26px;
     width: 690px;
     height: 45px;
     margin-top: 10px;
   }
 
-  .moddos .moddos__text {
+  .section-two .section-two__text {
     font-size: 20px;
     width: 690px;
   }
 
-  .moddos .moddos__btn {
+  .section-two .section-two__btn {
     width: 91px;
     margin-top: 30px;
   }
 
-  .modtres {
+  .section-three {
     height: 397px;
   }
 
-  .modtres .modtres__title {
+  .section-three .section-three__title {
     font-size: 26px;
     margin-top: 0px;
   }
 
-  .modtres .modtres__list {
+  .section-three .section-three__list {
     font-size: 20px;
     height: 172px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 26px;
   }
 
-  .modtres .modtres__list .li_one {
+  .section-three .section-three__list .li_one {
     grid-column: 1;
   }
 
-  .modtres .modtres__list .li_two {
+  .section-three .section-three__list .li_two {
     grid-column: 2;
   }
 
-  .modtres .modtres__list .li_three {
+  .section-three .section-three__list .li_three {
     grid-column: 3;
   }
 
-  .modtres .modtres__list .list__text {
+  .section-three .section-three__list .list__text {
     margin: auto;
     width: 212.3px;
   }
 
-  .modtres .modtres__list .list_title {
+  .section-three .section-three__list .list_title {
     margin: auto;
     font-size: 24px;
-    width: 212.3px;
   }
 
-  .modtres .modtres__btn {
+  .section-three .section-three__btn {
     width: 210px;
   }
 
@@ -350,6 +356,7 @@
     margin: 0px;
     width: 161px;
     padding-top: 0px;
+    padding-left: 50px;
   }
 
   .footer .footer__social-list {
@@ -370,6 +377,7 @@
 
   .footer .arrow {
     bottom: 265px;
+    left: 50%;
   }
 
   .footer_text {
@@ -399,6 +407,7 @@
     height: 100vh;
     width: 100vw;
     background-position-x: 0px;
+    background-size: 100% 100%;
   }
 
   .wrapper .header .header__text .header__title {
@@ -406,49 +415,49 @@
     width: 730px;
   }
 
-  .moddos {
+  .section-two {
     padding-left: 275px;
   }
 
-  .moddos .moddos__small {
+  .section-two .section-two__small {
     font-size: 16px;
   }
 
-  .moddos .moddos__title {
+  .section-two .section-two__title {
     font-size: 32px;
   }
 
-  .moddos .moddos__btn {
+  .section-two .section-two__btn {
     width: 160px;
   }
 
-  .modtres {
+  .section-three {
     height: 427px;
   }
 
-  .modtres .modtres__title {
+  .section-three .section-three__title {
     font-size: 32px;
     padding-top: 60px;
   }
 
-  .modtres .modtres__list {
+  .section-three .section-three__list {
     text-align: center;
   }
 
-  .modtres .modtres__list .list__text {
+  .section-three .section-three__list .list__text {
     max-width: 353.8px;
     margin: auto;
     text-align: center;
   }
 
-  .modtres .modtres__list .list_title {
+  .section-three .section-three__list .list_title {
     margin: auto;
     max-width: 350px;
     text-align: center;
     padding-top: 45px;
   }
 
-  .modtres .modtres__btn {
+  .section-three .section-three__btn {
     width: 255px;
   }
 

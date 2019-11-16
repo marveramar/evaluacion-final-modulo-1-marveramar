@@ -1,4 +1,4 @@
-.moddos {
+.section-two{
     background-color: $color-dos;
     margin: auto;
     width: 290px;
@@ -13,7 +13,7 @@
         @include desktop {
             padding-left: 275px;
         }
-    .moddos__small {
+        .section-two__small {
         color: #8ccbea;
         font-size: 14px;
         height: 30px;
@@ -22,8 +22,9 @@
             font-size: 16px;
         }  
     }
-    .moddos__title{
-        font-family: $font-title;
+    .section-two__title{
+        font-family: $font-text;
+        font-weight: 700;
         font-size: 24px;
         text-transform: capitalize;
         height: 60px;
@@ -38,7 +39,7 @@
                 font-size: 32px;
             }
     }
-    .moddos__text{
+    .section-two__text{
         font-family: $font-text;
         font-size: 18px;        
         color: $color-grey;
@@ -48,8 +49,9 @@
         }
 
     }
-    .moddos__btn {
-        font-family: $font-btn;
+    .section-two__btn {
+        font-family: $font-text;
+        font-weight: 400;
         font-size: 20px;
         background-color: $color-dos;
         color: $color-orange;
@@ -59,7 +61,7 @@
         height: 45px;
         transition-property: color;
         transition-duration: 0.5s;
-        &.moddos__btn:hover {
+        &.section-two__btn:hover {
             color: $color-menu;
         }
         @include tablet{
